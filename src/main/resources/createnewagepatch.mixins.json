@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "gg.drak.createnewagepatch.mixin",
+  "plugin": "gg.drak.createnewagepatch.plugin.SuperCallFixPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [],
+  "server": [
+    "ItemStackMarkerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
